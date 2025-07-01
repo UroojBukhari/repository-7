@@ -1,0 +1,35 @@
+/* Center flag on page */
+body {
+  margin: 0;
+  height: 100vh;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flag container with 2:3 aspect ratio */
+.flag {
+  width: 300px;
+  height: 200px; /* 2:3 ratio (height:width = 2:3) */
+  display: flex;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+/* Each stripe */
+.stripe {
+  flex: 1;
+}
+
+/* Colors */
+.blue {
+  background-color: #0055A4;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.red {
+  background-color: #EF4135;
+}
